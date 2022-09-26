@@ -3,7 +3,7 @@ Dr_ID int,
 Dr_name varchar(255),
 Dr_Email varchar(255),
 Dr_Mobile int,
-Dr_Adress varchar(255))
+Dr_Address varchar(255))
 insert into Doctors(Dr_ID,Dr_name,Dr_Email,Dr_Mobile,Dr_Address)
 values
 ('1','Satish Joshi','satshi@gmail.com','900000001','Panvel'),
