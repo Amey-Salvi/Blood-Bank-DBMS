@@ -6,14 +6,15 @@ D_mobile int,
 D_Email varchar(255),
 D_proffession varchar(255),
 D_address varchar(255),
-D_hereditary_ailments varchar(255))
+D_hereditary_ailments varchar(255),
+D_BlooGr varchar(255))
 insert into Donors(D_id,D_name,D_gender,D_mobile,D_Email,D_proffession,D_address,D_hereditary_ailments)
 values
-('1','Mukesh Mannan','M','9000000008','mm01@gmail.com','Finance','Thane','none'),
-('2','Nayan Ganguly','F','9000000009','ng92@gmail.com','Engineer','Thane','Diabetes'),
-('3','Satish Sachdev','M','9000000010','ss32@gmail.com','Engineer','CSMT','BP'),
-('4','Aabha Mohbir','F','9000000011','am56@gmail.com','IT','Dombivli','BP'),
-('5','Gina Mayer','F','9000000012','gm69@gmail.com','Teacher','CSMT','none'),
-('6','Ayushman Agate','M','9000000013','aa99@gmail.com','Accounts','Dombivli','Diabetes'),
-('7','Manish Thakur','M','9000000014','mt66@gmail.com','CA','Panvel','Thyroid'),
-('8','Rochita Ghosh','F','9000000015','rg99@gmail.com','House Wife','Panvel','none');
+('1','Mukesh Mannan','M','9000000008','mm01@gmail.com','Finance','Thane','none','O +ve'),
+('2','Nayan Ganguly','F','9000000009','ng92@gmail.com','Engineer','Thane','Diabetes','A +ve'),
+('3','Satish Sachdev','M','9000000010','ss32@gmail.com','Engineer','CSMT','BP','B -ve'),
+('4','Aabha Mohbir','F','9000000011','am56@gmail.com','IT','Dombivli','BP','O +ve'),
+('5','Gina Mayer','F','9000000012','gm69@gmail.com','Teacher','CSMT','none','AB +ve'),
+('6','Ayushman Agate','M','9000000013','aa99@gmail.com','Accounts','Dombivli','Diabetes','O +ve'),
+('7','Manish Thakur','M','9000000014','mt66@gmail.com','CA','Panvel','Thyroid','O -ve'),
+('8','Rochita Ghosh','F','9000000015','rg99@gmail.com','House Wife','Panvel','none','B +ve');
