@@ -8,7 +8,7 @@ D_proffession varchar(255),
 D_address varchar(255),
 D_hereditary_ailments varchar(255),
 D_BlooGr varchar(255))
-insert into Donors(D_id,D_name,D_gender,D_mobile,D_Email,D_proffession,D_address,D_hereditary_ailments)
+insert into Donors(D_id,D_name,D_gender,D_mobile,D_Email,D_proffession,D_address,D_hereditary_ailments,D_BloodGr)
 values
 ('1','Mukesh Mannan','M','9000000008','mm01@gmail.com','Finance','Thane','none','O +ve'),
 ('2','Nayan Ganguly','F','9000000009','ng92@gmail.com','Engineer','Thane','Diabetes','A +ve'),
