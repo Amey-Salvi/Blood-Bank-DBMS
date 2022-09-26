@@ -12,24 +12,6 @@ values
 ('4','Kiran Nair','knair91@gmail.com','900000004','Vashi'),
 ('5','Yash Jadhav','yashj93@gmail.com','900000005','Kharghar'),
 ('6','Sanjana Deshmukh','sanjanad33@gmail.com','900000006','Vashi'),
-('7','Chinmay Jawale','jchinmay67@gmail.com','900000007','Panvel')
+('7','Chinmay Jawale','jchinmay67@gmail.com','900000007','Panvel');
 
-create table Donors (
-D_id int,
-D_name varchar(255),
-D_gender varchar(255),
-D_mobile int,
-D_Email varchar(255),
-D_proffession varchar(255),
-D_address varchar(255),
-D_hereditary_ailments varchar(255)
-insert into Donors(D_id,D_name,D_gender,D_mobile,D_Email,D_proffession,D_address,D_hereditary_ailments)
-values
-('','','','','','','',''),
-('','','','','','','',''),
-('','','','','','','',''),
-('','','','','','','',''),
-('','','','','','','',''),
-('','','','','','','',''),
-('','','','','','','',''),
-('','','','','','','',''),
+
